@@ -1,0 +1,12 @@
+struct Engine {
+    int power;
+};
+struct Car {
+    struct Engine motor;
+    int price;
+};
+int main(void) {
+    struct Car myCar;
+    myCar.price = 10000;
+    return myCar.price;
+}

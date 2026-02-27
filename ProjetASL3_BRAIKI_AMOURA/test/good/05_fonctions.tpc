@@ -1,0 +1,8 @@
+int add(int u, int v) {
+    return u + v;
+}
+int main(void) {
+    int res;
+    res = add(10, 20);
+    return res;
+}
